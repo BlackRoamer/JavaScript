@@ -1,0 +1,22 @@
+function increaseNum(num) {
+	var i,
+		length,
+		k,
+		numbers = [],
+		arrRes = [];
+		num = +num;
+	for (i = 0; i <= 20; i+=1) {
+		numbers.push(i);
+
+	}
+	length = numbers.length;
+
+	for (k = 0; k < length; k+=1) {
+		if (i % num === 0) {
+			numbers[i] *= num;
+			arrRes.push(numbers[i]);
+			}
+		}
+
+}
+increaseNum(5);
