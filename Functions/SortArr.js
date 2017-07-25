@@ -13,7 +13,7 @@ function sort(numbers) {
 	arr = numbers.split(' ');
 	len = arr.length;
 	for (i = 0; i < len; i += 1) {
-		for (j = 0; j < len; j += 1) {
+		for (j = i + 1; j < len; j += 1) {
 			if (+arr[i] < +arr[j]) {
 				temp = +arr[i];
 				arr[i] = +arr[j];
@@ -21,7 +21,6 @@ function sort(numbers) {
 			}
 		}
 	}
-	console.log(arr);
 	for (k in arr) {
 		if (typeof arr[k] === 'number') {
 			result += arr[k] + ' ';
@@ -29,4 +28,4 @@ function sort(numbers) {
 	}
 	console.log(result);
 }
-sort('-2 a 1 0 -3 5');
+sort('1 2 3 4 5');
