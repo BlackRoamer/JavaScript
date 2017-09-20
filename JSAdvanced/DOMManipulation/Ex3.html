@@ -1,0 +1,19 @@
+<ul id="items">
+  <li>first item</li>
+  <li>second item</li>
+  <li>third item</li>
+</ul>
+<textarea id="result"></textarea>
+<br>
+<button onclick="extractText()">Add</button>
+<script>
+  function extractText() {
+    // TODO
+  let list = document.getElementById('items');
+  let input = document.getElementById('result').value;
+let li = document.createElement('li');
+li.innerHTML = input;
+    list.appendChild(li);
+    document.getElementById('result').value = '';
+  }
+</script>
