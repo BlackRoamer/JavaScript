@@ -1,0 +1,12 @@
+Welcome to the "Show More Text Example".
+<a href="#" id="more" onclick= "showText()">Read more …</a>
+<span id="text" style= "display:none">Welcome to JavaScript and DOM.</span>
+<script>
+  function showText() {
+    // TODO
+    let moreTextValue = document.getElementById('more');
+    moreTextValue.style = 'display:none';
+    let showMoreText = document.getElementById('text');
+    showMoreText.style = 'display:inline-block';
+  }
+</script>
