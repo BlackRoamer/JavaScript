@@ -1,0 +1,16 @@
+#search {
+    margin: 3px;
+    font-size: 1.5em;
+    color: rgb(12, 90, 206);
+}
+#inputbox {
+    margin-left: 3px;
+}
+#submit {
+    margin-left: 3px;
+    margin-top: 5px;
+}
+#output {
+    margin: 5px;
+    font-size: 1.5em;
+}
