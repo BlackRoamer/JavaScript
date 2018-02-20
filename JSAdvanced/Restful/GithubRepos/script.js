@@ -7,7 +7,7 @@ $(document).ready(() => {
     submit.on('click', () => {
        
         loading();
-        
+
         let username = $('#username').val();
         let repo = $('#repo').val();
 
@@ -36,6 +36,8 @@ $(document).ready(() => {
     function clearAlways() {
         submit.prop('disabled', false);
         $('#first').detach();
+        $('#username').val('');
+        $('#repo').val('');
     }
 
     function loading() {
