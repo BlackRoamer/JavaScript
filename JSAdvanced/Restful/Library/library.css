@@ -1,0 +1,15 @@
+#errorHandler {
+    width: 5cm;
+    height: 2cm;
+    background-color: rgb(36, 197, 14);
+    float: right;
+    font-size: 18px;
+    text-align: center;
+    margin-right: 10%;
+    display: none;
+}
+
+#content {
+padding-top: 0.4cm;
+text-align: center
+}
