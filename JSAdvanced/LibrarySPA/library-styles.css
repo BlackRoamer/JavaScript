@@ -1,0 +1,60 @@
+header nav ul {
+    list-style-type: none;
+    margin: 0.6em;
+    padding: 0;
+    background-color:black;
+}
+header nav ul li {
+    display: inline-block;    
+}
+header nav ul li a {
+    display: inline-block;
+    color:rgb(13, 194, 226);
+    text-decoration: none;
+    font-size: 2.4em;
+    text-align: center;
+    padding: 0.6em;
+    border-right: 1px solid white;
+}
+header nav ul li a:hover {
+    background-color: ghostwhite;
+}
+
+footer {
+    background-color: black;
+    color:rgb(13, 194, 226);
+    margin: 0.1em;
+    padding: 0;
+    text-align: center;
+    font-size: 1.5em;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    position: fixed;
+
+}
+
+#booksList #tableContent {
+    padding-left: 1.0em;
+    padding-right: 1.0em;
+}
+
+#booksList #tableContent table {
+    border: 1px solid black;
+    background-color: powderblue;
+    margin-right: 1em;
+}
+#booksList #tableContent table th {
+    width: 15em;
+    background-color: white;  
+    padding: 0.2em;
+   
+}
+
+section {
+    display: none;
+}
+img {
+    width: 350px;
+    height: 300px;
+}

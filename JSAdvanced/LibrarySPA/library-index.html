@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Library</title>
+    <link rel="stylesheet" href="library-styles.css">
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <script src="library-script.js"></script>
+</head>
+
+<body>
+
+    <header>
+        <nav>
+            <ul id="navigation">
+                <li>
+                    <a href=#>Home</a>
+                </li>
+                <li id="loginNav">
+                    <a href=#>Login</a>
+                </li>
+                <li id="registerNav">
+                    <a href=#>Register</a>
+                </li>
+                <li id="listBooksNav">
+                    <a href=#>List books</a>
+                </li>
+                <li id="createBookNav">
+                    <a href=#>Create book</a>
+                </li>
+                <li id="logOutNav">
+                    <a href=#>Log out</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="home">
+            <h1>Welcome</h1>
+            <p>
+                This is our book library
+            </p>
+        </section>
+
+        <section id="login">
+            <h1>
+                Please login
+            </h1>
+            <form>
+                <label for="usernameLog">Username: </label>
+                <input type="text" id="usernameLog">
+                <label for="passwordLog">Password: </label>
+                <input type="password" id="passwordLog">
+                <input type="submit" value="Login">
+
+            </form>
+        </section>
+
+        <section id="register">
+            <h1>
+                You don't have an account? Register in less than a minute
+            </h1>
+            <form>
+                <label for="usernameReg">Username: </label>
+                <input type="text" id="usernameReg">
+                <label for="passwordReg">Password: </label>
+                <input type="password" id="passwordReg">
+                <input type="submit" value="Create account">
+
+            </form>
+        </section>
+
+        <section id="booksList">
+            <h1>
+                Books list
+            </h1>
+            <div id="tableContent">
+                <table>
+                    <thead>
+                        <th>Title</th>
+                        <th>Author</th>
+                        <th>Description</th>
+                        <th>Actions</th>
+                    </thead>
+                    <tbody id="booksBody">
+                        <tr>
+                        </tr>
+
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <section id="createBook">
+            <h1>
+                Create a new book
+            </h1>
+            <form>
+                <label for="bookTitle">Title: </label>
+                <input type="text" id="bookTitle">
+                <label for="bookAuthor">Author: </label>
+                <input type="text" id="bookAuthor">
+                <label for="bookDescription">Description: </label>
+                <input type="text" id="bookDescription">
+                <input type="submit" value="Create book">
+
+            </form>
+        </section>
+        <section id="logOut">
+            <h1>You logged out successufully</h1>
+        </section>
+    </main>
+    <footer>Book library - Single page application
+        <footer>
+
+</body>
+
+</html>
